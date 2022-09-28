@@ -17,7 +17,7 @@ app.get("/db-env", function (req, res) {
 });
 app.get("/hola", function (req, res) {
     res.json({
-        message: "Hola? XD, my name is heroku"
+        message: "Hola? XD, my name is heroku, xd"
     });
 });
 app.listen(port, function () {
